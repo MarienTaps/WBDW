@@ -1,0 +1,41 @@
+footer, header, section{ 
+	background-color: green; 
+}
+nav, article{ 
+	background-color: aqua; 
+}
+aside{ 
+	background-color: yellow; 
+}
+
+footer, header, section{ 
+	background-color: lightgreen; 
+}
+nav, aside{ 
+	background-color: lightblue; 
+}
+article{ 
+	background-color: khaki;
+}
+
+section{
+	display:flex; /* aside et article concernÃ©s */
+}
+article{
+	flex:3;
+}
+aside{
+	flex:1;
+}
+nav ul{
+	display:flex; /* les li sont concernÃ©s */
+}
+li{
+    border:2px solid blue; 
+    width:15%;
+   	list-style-type: none; /* pour Ã©viter le point */
+}
+a{ 	
+	padding-left: 10px;
+	text-decoration: none; /* pour Ã©viter le soulignÃ© */
+}
